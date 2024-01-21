@@ -18,6 +18,14 @@ public class Books {
         return this.year;
     }
 
+    public Author getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(Author author) {
+        this.author = author;
+    }
+
     public void setYear(int year) {
         this.year = year;
 

@@ -24,5 +24,7 @@ public class Main {
                 author.setFirstName("Jan");
         System.out.println("Автор книги = " + book.getName() + ", "
                 + author.getFirstName() + ", год издания книги = " + book.getYear());
+        book.setAuthor(authorTwo);
+        System.out.println(book.getAuthor());
     }
 }
