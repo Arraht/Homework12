@@ -1,17 +1,23 @@
 package authors;
 
 public class Author {
-    private String name;
+    private String firstName;
+    private String lastName;
+    private String fullName;
 
-    public Author(String name) {
-        this.name = name;
+    public Author(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.fullName = firstName + " " + lastName;
     }
 
     public String getName() {
-        return this.name;
+        fullName = firstName + " " + lastName;
+        return this.fullName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setName(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
     }
 }
