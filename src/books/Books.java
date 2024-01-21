@@ -5,12 +5,12 @@ import authors.Author;
 
 public class Books {
     private int year;
-    private String author;
+    private Author author;
     private String name;
 
     public Books(Author author, String name, int year) {
         this.year = year;
-        this.author = author.getName();
+        this.author = author;
         this.name = name;
     }
 

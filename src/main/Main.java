@@ -18,5 +18,11 @@ public class Main {
         book.setName("Time");
         System.out.println("Автор книги = " + book.getName() + ", "
                 + author.getName() + ", год издания книги = " + book.getYear());
+        author.setLastName("Gras");
+        System.out.println("Автор книги = " + book.getName() + ", "
+                + author.getLastName() + ", год издания книги = " + book.getYear());
+                author.setFirstName("Jan");
+        System.out.println("Автор книги = " + book.getName() + ", "
+                + author.getFirstName() + ", год издания книги = " + book.getYear());
     }
 }
