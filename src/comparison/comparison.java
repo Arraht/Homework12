@@ -3,7 +3,7 @@ package comparison;
 import authors.Author;
 import books.Books;
 
-public class Search {
+public class comparison {
     public static void comparison(Books book, Books bookTwo, Author author, Author authorTwo) {
         comparisonBookName(book, bookTwo);
         comparisonExactBook(book, bookTwo);
